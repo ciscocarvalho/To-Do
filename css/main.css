@@ -85,6 +85,7 @@ input,
 #toolbar h4{
     margin-bottom: 0.5rem;
 }
+
 #search{
     border-right: 1px solid #ddd;
     padding-right: 1rem;
@@ -93,9 +94,16 @@ input,
     display: flex;
     flex-direction: column;
 }
+
+#add {
+    display: flex;
+    gap: 0.3rem;
+}
+
 #search form{
     display: flex;
 }
+
 #search input{
     width: 100%;
     margin-right: 0.3rem;
